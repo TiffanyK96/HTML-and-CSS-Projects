@@ -90,13 +90,13 @@ th{
 }
 
 /*--4 To resolve: the text in the example used (w3school) all seem related. How to isolate?*/ 
-.container{
+.image-container{
     position: relative; 
     text-align: center; 
     color: white; 
 }
 
-.bottom-left{
+.image-container .bottom-left{
     position: absolute; 
     bottom: 0px; 
     left: 16px;
