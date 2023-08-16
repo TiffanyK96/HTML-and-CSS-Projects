@@ -98,7 +98,7 @@ th{
 
 .image-container .bottom-left{
     position: absolute; 
-    bottom: 0px; 
+    bottom: 8px; 
     left: 16px;
 }
 
@@ -134,7 +134,7 @@ a:hover{
 /*--Challenge 5-10: how to make "absolute" relative to vid instead of brower?--*/ 
 .video-container{
     position: relative; 
-    text-align: center
+    text-align: center; 
     color: white;
 }
 
