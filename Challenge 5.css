@@ -69,7 +69,7 @@ a:hover{
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 50%
+    width: 35%
 }
 
 /*--CSS filter property & CSS border-radius property--*/ 
@@ -83,6 +83,7 @@ img {
 /*--3 To resolve: how to adjust the border - the right is lopsided.*/ 
 table, th, td{
     border: 1px solid; 
+ /*--I've tried either padding & table-layout: auto;--*/
 }
 
 th{
@@ -93,13 +94,13 @@ th{
 .image-container{
     position: relative; 
     text-align: center; 
-    color: white; 
 }
 
 .image-container .bottom-left{
     position: absolute; 
     bottom: 8px; 
-    left: 16px;
+    left: 352px;
+    color: darkgoldenrod
 }
 
 /*--Challente 5-6: how to add height & width (like before col-container)?--*/
